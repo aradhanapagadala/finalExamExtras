@@ -2,7 +2,7 @@
 #include <vector>
 #include <numeric>
 using namespace std;
-
+// difficulty level: easy
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -18,4 +18,5 @@ public:
         }
         return s - dp[m][n] * 2;
     }
+
 };

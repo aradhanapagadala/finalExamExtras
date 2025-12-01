@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-
+// difficulty level: medium
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -37,4 +37,5 @@ public:
             return max({lheight + rheight, ldiameter, rdiameter});
         }
     }
+
 };

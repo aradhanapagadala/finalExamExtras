@@ -2,7 +2,7 @@
 using namespace std;
 #include <queue>
 #include <unordered_map>
-
+// difficulty level: medium
 class Solution {
 public:
     string reorganizeString(string s) {
@@ -41,4 +41,5 @@ public:
             return "";
             return res;
         }
+
 };
